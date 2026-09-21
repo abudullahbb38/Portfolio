@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mara Ellis | Product designer & developer",
+  title: "Abudullahbb|Full stack developer",
   description: "Independent product designer and developer crafting thoughtful digital tools.",
 };
 
