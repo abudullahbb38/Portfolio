@@ -2,10 +2,12 @@
 
 :root { --paper: #f3f0e9; --ink: #202522; --coral: #ee765d; --blue: #9bb7d2; --yellow: #e8c95f; }
 
+/* stylelint-disable at-rule-no-unknown */
 @theme inline {
   --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-playfair);
 }
+/* stylelint-enable at-rule-no-unknown */
 
 body {
   background: var(--paper); color: var(--ink); font-family: var(--font-dm-sans), sans-serif;

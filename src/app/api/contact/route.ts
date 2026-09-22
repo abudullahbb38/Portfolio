@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
 
 export async function POST(request: Request) {
   const body = await request.json();
@@ -11,6 +10,5 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Please complete every field." }, { status: 400 });
   }
 
-  await prisma.message.create({ data: { name, email, message } });
   return NextResponse.json({ ok: true });
 }
